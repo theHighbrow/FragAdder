@@ -6,4 +6,6 @@ package com.example.varun.fragadder;
 
 public interface Communicator {
     public void changeText();
+
+    public void createAndAddFragment4();
 }

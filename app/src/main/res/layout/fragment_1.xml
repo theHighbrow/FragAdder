@@ -8,7 +8,7 @@
         android:layout_height="wrap_content"
         android:text="Hello Dear"
         android:layout_centerHorizontal="true"
-        android:textColor="#FFFFFF"
+        android:textColor="#ff0400"
         android:id="@+id/tv1"
         />
     <TextView
@@ -16,13 +16,13 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/tv1"
         android:textSize="20sp"
-        android:textColor="#FFFFFF"
+        android:textColor="#ff0000"
         android:id="@+id/tv2"
         />
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textColor="#FFFFFF"
+        android:textColor="#ff0000"
         android:layout_below="@id/tv2"
         android:text="@string/i_know_your_fav_colour"
         android:id="@+id/btnpurple"/>
