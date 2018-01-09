@@ -28,6 +28,7 @@ public class Fragment4 extends Fragment {
             @Override
             public void onClick(View view) {
                 Communicator communicator = (Communicator) getActivity();
+                communicator.changeText();
 
             }
         });
