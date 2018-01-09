@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:weightSum="4"
+    android:layout_height="match_parent"
+    tools:context="com.example.varun.fragadder.MainActivity">
+
+   <FrameLayout
+       android:layout_width="match_parent"
+       android:layout_height="0dp"
+       android:layout_weight="1"
+       android:background="@color/colorPrimary"
+       android:id="@+id/container1">
+   </FrameLayout>
+   <FrameLayout
+       android:layout_width="match_parent"
+       android:layout_height="0dp"
+       android:layout_weight="1"
+       android:background="@color/orange"
+       android:id="@+id/container2">
+   </FrameLayout>
+   <FrameLayout
+       android:layout_width="match_parent"
+       android:layout_height="0dp"
+       android:layout_weight="1"
+       android:background="@color/darkred"
+       android:id="@+id/container3">
+   </FrameLayout>
+   <FrameLayout
+       android:layout_width="match_parent"
+       android:layout_height="0dp"
+       android:layout_weight="1"
+       android:background="@color/purple"
+       android:id="@+id/container4">
+   </FrameLayout>
+</LinearLayout>
